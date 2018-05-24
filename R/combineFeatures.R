@@ -1,4 +1,4 @@
-### THis function combines features extracted from executable file and seqCTD function ###
+### THis function combines features extracted from feature116.exe  and seqCTD.R ###
 combineFeatures <- function(seq,csv) {
 seq <- readFASTA(seq)
 ctd <- seqCTD(seq)
